@@ -21,8 +21,8 @@ limereg_LDADD += @BOOST_PROGRAM_OPTIONS_LIBS@
 limereg_CFLAGS += @OPENCV_CFLAGS@
 limereg_CPPFLAGS += @OPENCV_CFLAGS@
 #limereg_LDFLAGS += @OPENCV_LDFLAGS@
-#limereg_LDADD += @OPENCV_LIBS@
-limereg_LDADD += -lopencv_highgui -lopencv_core -lopencv_imgcodecs
+limereg_LDADD += @OPENCV_LIBS@
+#limereg_LDADD += -lopencv_highgui -lopencv_core -lopencv_imgcodecs
 
 #Manpages for the command-line utility
 if HAVE_HELP2MAN
